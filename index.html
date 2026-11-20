@@ -4,16 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>HantekScopeQt - Automotive Oscilloscope Software</title>
+<title>HantekScopeQt - Universal Automotive Test & Measurement Platform</title>
 
-<meta name="description" content="HantekScopeQt automotive oscilloscope software for Hantek 1008. Supports PicoScope import and export, Autel waveform conversion, crankshaft and camshaft analysis, injector testing and ignition diagnostics.">
+<meta name="description" content="Universal Automotive Test & Measurement Platform supporting Hantek, PicoScope, AutoScope, Autel and HScope ecosystems. Oscilloscope, Digital Multimeter, Protocol Decoding, Waveform Conversion and Unlimited Streaming Recording.">
 
-<meta name="keywords" content="Hantek 1008,HantekScopeQt,Automotive Oscilloscope,PicoScope,Autel,Waveform Analysis,Crankshaft Sensor,Camshaft Sensor,Injector Waveform,Ignition Coil,Automotive Diagnostics">
+<meta name="keywords" content="HantekScopeQt,Hantek,PicoScope,AutoScope,Autel,HScope,Automotive Oscilloscope,Digital Multimeter,CAN Decoder,Waveform Analysis,MWF,PSDATA,MSDATA,Automotive Diagnostics">
 
 <meta name="author" content="Desert36">
 
 <meta property="og:title" content="HantekScopeQt">
-<meta property="og:description" content="Professional Automotive Oscilloscope Software for Hantek 1008 with PicoScope and Autel compatibility.">
+<meta property="og:description" content="Universal Automotive Test & Measurement Platform supporting Hantek, PicoScope, AutoScope, Autel and HScope ecosystems.">
 <meta property="og:type" content="website">
 
 <style>
@@ -38,6 +38,7 @@ h1{
 .subtitle{
     color:#cbd5e1;
     margin-top:10px;
+    font-size:1.2em;
 }
 
 .btn{
@@ -56,7 +57,7 @@ h1{
 }
 
 section{
-    max-width:1000px;
+    max-width:1100px;
     margin:auto;
     padding:40px 20px;
 }
@@ -74,12 +75,23 @@ section{
     gap:20px;
 }
 
+.features div{
+    background:#111827;
+    padding:15px;
+    border-radius:10px;
+}
+
+ul{
+    line-height:1.8em;
+}
+
 footer{
     text-align:center;
     padding:25px;
     color:#9ca3af;
 }
 </style>
+
 </head>
 
 <body>
@@ -89,7 +101,7 @@ footer{
 <h1>HantekScopeQt</h1>
 
 <p class="subtitle">
-Professional Automotive Oscilloscope Software
+Universal Automotive Test & Measurement Platform
 </p>
 
 <a class="btn"
@@ -112,29 +124,44 @@ GitHub
 <h2>About</h2>
 
 <p>
-HantekScopeQt is a modern oscilloscope application designed for Hantek 1008 and automotive diagnostics. It supports waveform capture, GPU accelerated rendering, and waveform conversion between multiple platforms including PicoScope and Autel.
+HantekScopeQt is a professional automotive test and measurement platform supporting multiple oscilloscope ecosystems including Hantek, PicoScope, AutoScope, Autel MaxiScope and HScope.
+</p>
+
+<p>
+The software combines oscilloscope acquisition, waveform analysis, protocol decoding, digital multimeter functions, waveform conversion and long-term recording within a single application available on Windows, Linux and Android.
 </p>
 
 </div>
 
 <div class="card">
-<h2>Features</h2>
+
+<h2>Key Features</h2>
 
 <div class="features">
 
 <div>
-<h3>⚡ Fast Rendering</h3>
-<p>GPU accelerated waveform display and analysis.</p>
+<h3>⚡ High Performance Rendering</h3>
+<p>GPU accelerated waveform rendering with fast zoom and navigation.</p>
 </div>
 
 <div>
-<h3>🔄 Waveform Conversion</h3>
-<p>Import and export Hantek, PicoScope and Autel files.</p>
+<h3>📡 Protocol Decoding</h3>
+<p>CAN, CAN FD, J1939, LIN, SENT, PSI5, I²C, I²S and more.</p>
 </div>
 
 <div>
-<h3>🚗 Automotive Diagnostics</h3>
-<p>Injector, ignition, crankshaft and camshaft analysis.</p>
+<h3>🔄 Waveform Interoperability</h3>
+<p>Import and export Hantek, PicoScope, AutoScope, Autel and HScope formats.</p>
+</div>
+
+<div>
+<h3>📊 Digital Multimeter</h3>
+<p>Integrated voltmeter, ohmmeter and continuity tester.</p>
+</div>
+
+<div>
+<h3>📁 Unlimited Streaming</h3>
+<p>Direct-to-disk CSV recording with virtually unlimited duration.</p>
 </div>
 
 <div>
@@ -147,26 +174,163 @@ HantekScopeQt is a modern oscilloscope application designed for Hantek 1008 and 
 </div>
 
 <div class="card">
-<h2>Supported Formats</h2>
+
+<h2>Supported Hardware</h2>
+
+<h3>Hantek</h3>
 
 <ul>
-<li>Hantek CSV</li>
-<li>PicoScope CSV</li>
-<li>Autel JSON</li>
-<li>Signal exports</li>
+<li>1008 Series</li>
+<li>6022 Series</li>
+<li>6052 Series</li>
+<li>6082 Series</li>
+<li>6102 Series</li>
+<li>6212 Series</li>
+<li>2090 / 2150 / 2250 (Experimental)</li>
+<li>5200 / 5200A (Experimental)</li>
+<li>6021 (Experimental)</li>
+</ul>
+
+<h3>PicoScope</h3>
+
+<ul>
+<li>2000 Series</li>
+<li>3000 Series</li>
+<li>4000 Series</li>
+<li>5000 Series</li>
+</ul>
+
+<h3>Autel</h3>
+
+<ul>
+<li>MP408</li>
+<li>MP608</li>
+</ul>
+
+<h3>AutoScope</h3>
+
+<ul>
+<li>USB AutoScope (Experimental)</li>
+</ul>
+
+<h3>SCPI Oscilloscopes (Experimental)</h3>
+
+<ul>
+<li>Rigol</li>
+<li>Siglent</li>
+<li>Keysight / Agilent</li>
+<li>Tektronix</li>
+<li>Owon</li>
+<li>Batronix</li>
+</ul>
+
+<h3>Additional Experimental Devices</h3>
+
+<ul>
+<li>SainSmart DDS120</li>
+<li>Instrustar ISDS205B</li>
+<li>MDSO / MDSO-LA</li>
+<li>LCsoft EZ-USB</li>
+<li>Armfly AX-Pro</li>
+<li>OSC802</li>
+<li>OSCA02</li>
+<li>OSCH02</li>
+<li>OSC482</li>
 </ul>
 
 </div>
 
 <div class="card">
-<h2>Automotive Oscilloscope Features</h2>
+
+<h2>Supported Formats</h2>
+
+<ul>
+<li>.hantek</li>
+<li>.psdata (PicoScope)</li>
+<li>.msdata (Autel)</li>
+<li>.json (Autel)</li>
+<li>.mwf (AutoScope)</li>
+<li>.zip (HScope)</li>
+<li>.csv</li>
+<li>.tsv</li>
+<li>.mat</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Digital Multimeter</h2>
 
 <p>
-HantekScopeQt supports automotive diagnostics using the Hantek 1008 oscilloscope.
-Analyze injector waveforms, ignition coils, crankshaft sensors, camshaft sensors,
-CAN bus signals and charging systems. Compatible with Hantek, PicoScope and
-Autel waveform formats.
+Integrated Digital Multimeter functions:
 </p>
+
+<ul>
+<li>Voltmeter</li>
+<li>Ohmmeter</li>
+<li>Continuity Tester</li>
+<li>RMS Measurements</li>
+<li>MIN / MAX Capture</li>
+<li>Trend Logging</li>
+<li>CSV Logging</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Automotive Diagnostics</h2>
+
+<ul>
+<li>Cam / Crank Correlation</li>
+<li>Relative Compression Testing</li>
+<li>Injector Analysis</li>
+<li>Ignition Analysis</li>
+<li>Pressure Transducer Support</li>
+<li>Charging System Analysis</li>
+<li>Starting System Analysis</li>
+<li>Reference Waveform Comparison</li>
+<li>Waveform Library Management</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Protocol Decoding</h2>
+
+<ul>
+<li>CAN</li>
+<li>CAN FD</li>
+<li>J1939</li>
+<li>LIN</li>
+<li>SENT Fast</li>
+<li>PSI5</li>
+<li>I²C</li>
+<li>I²S</li>
+<li>1-Wire</li>
+<li>10BASE-T1S</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Continuous Streaming Recording</h2>
+
+<p>
+Unlike traditional memory-based oscilloscopes, HantekScopeQt supports direct-to-disk waveform recording.
+</p>
+
+<ul>
+<li>Real-time streaming acquisition</li>
+<li>Direct CSV recording</li>
+<li>Virtually unlimited recording duration</li>
+<li>Multi-channel recording</li>
+<li>Road-test compatible</li>
+<li>Ideal for intermittent faults</li>
+</ul>
 
 </div>
 
@@ -189,7 +353,10 @@ Download Latest Release
 </section>
 
 <footer>
-© 2026 HantekScopeQt
+
+© 2026 HantekScopeQt<br>
+Universal Automotive Test & Measurement Platform
+
 </footer>
 
 </body>

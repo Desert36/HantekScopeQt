@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>HantekScopeQt - Universal Automotive Test & Measurement Platform</title>
+<title>Universal Automotive Test, Measurement &amp; Engine Analysis Platform</title>
 
-<meta name="description" content="Universal Automotive Test & Measurement Platform supporting Hantek, PicoScope, AutoScope, Autel and HScope ecosystems. Oscilloscope, Digital Multimeter, Protocol Decoding, Waveform Conversion and Unlimited Streaming Recording.">
+<meta name="description" content="Universal Automotive Test &amp; Measurement Platform supporting Hantek, PicoScope, AutoScope, Autel and HScope ecosystems. Oscilloscope, Digital Multimeter, Protocol Decoding, Waveform Conversion and Unlimited Streaming Recording.">
 
 <meta name="keywords" content="HantekScopeQt,Hantek,PicoScope,AutoScope,Autel,HScope,Automotive Oscilloscope,Digital Multimeter,CAN Decoder,Waveform Analysis,MWF,PSDATA,MSDATA,Automotive Diagnostics">
 
 <meta name="author" content="Desert36">
 
 <meta property="og:title" content="HantekScopeQt">
-<meta property="og:description" content="Universal Automotive Test & Measurement Platform supporting Hantek, PicoScope, AutoScope, Autel and HScope ecosystems.">
+<meta property="og:description" content="Universal Automotive Test &amp; Measurement Platform supporting Hantek, PicoScope, AutoScope, Autel and HScope ecosystems.">
 <meta property="og:type" content="website">
 
 <style>
@@ -90,6 +90,16 @@ footer{
     padding:25px;
     color:#9ca3af;
 }
+.screenshot{
+    width:100%;
+    border-radius:12px;
+    margin-top:15px;
+}
+
+.note{
+    color:#cbd5e1;
+    margin-top:15px;
+}
 </style>
 
 </head>
@@ -101,18 +111,14 @@ footer{
 <h1>HantekScopeQt</h1>
 
 <p class="subtitle">
-Universal Automotive Test & Measurement Platform
+Universal Automotive Test &amp; Measurement Platform
 </p>
 
-<a class="btn"
-href="https://mega.nz/folder/tygggJRR#1msSwtngPFoVY7otVh7SUQ"
-target="_blank">
+<a class="btn" href="https://mega.nz/folder/tygggJRR#1msSwtngPFoVY7otVh7SUQ" target="_blank">
 Download
 </a>
 
-<a class="btn"
-href="https://github.com/Desert36/HantekScopeQt"
-target="_blank">
+<a class="btn" href="https://github.com/Desert36/HantekScopeQt" target="_blank">
 GitHub
 </a>
 
@@ -128,7 +134,7 @@ HantekScopeQt is a professional automotive test and measurement platform support
 </p>
 
 <p>
-The software combines oscilloscope acquisition, waveform analysis, protocol decoding, digital multimeter functions, waveform conversion and long-term recording within a single application available on Windows, Linux and Android.
+The software combines oscilloscope acquisition, waveform analysis, protocol decoding, digital multimeter functions, waveform conversion, guided diagnostics, crankshaft and camshaft correlation analysis, reluctor wheel analysis, sensor simulation and long-term recording within a single application available on Windows, Linux and Android.
 </p>
 
 </div>
@@ -141,32 +147,58 @@ The software combines oscilloscope acquisition, waveform analysis, protocol deco
 
 <div>
 <h3>⚡ High Performance Rendering</h3>
-<p>GPU accelerated waveform rendering with fast zoom and navigation.</p>
+<p>
+GPU accelerated waveform rendering with configurable anti-aliasing, smooth joins and adjustable trace thickness.
+</p>
+</div>
+
+<div>
+<h3>🧠 Guided Diagnostics</h3>
+<p>
+More than 185 tested automotive guided diagnostics with integrated technician helpers.
+</p>
+</div>
+
+<div>
+<h3>⚙️ Crank & Cam Correlation</h3>
+<p>
+Automatic tooth counting, missing tooth detection, cam phase measurements and animated engine timing analysis.
+</p>
 </div>
 
 <div>
 <h3>📡 Protocol Decoding</h3>
-<p>CAN, CAN FD, J1939, LIN, SENT, PSI5, I²C, I²S and more.</p>
+<p>
+CAN, CAN FD, J1939, LIN, SENT, PSI5, I²C, I²S, 1-Wire and 10BASE-T1S support.
+</p>
 </div>
 
 <div>
 <h3>🔄 Waveform Interoperability</h3>
-<p>Import and export Hantek, PicoScope, AutoScope, Autel and HScope formats.</p>
+<p>
+Import and export Hantek, PicoScope, AutoScope, Autel and HScope waveform formats.
+</p>
 </div>
 
 <div>
 <h3>📊 Digital Multimeter</h3>
-<p>Integrated voltmeter, ohmmeter and continuity tester.</p>
+<p>
+Integrated voltmeter, ohmmeter and continuity tester.
+</p>
 </div>
 
 <div>
 <h3>📁 Unlimited Streaming</h3>
-<p>Direct-to-disk CSV recording with virtually unlimited duration.</p>
+<p>
+Direct-to-disk CSV recording with virtually unlimited recording duration.
+</p>
 </div>
 
 <div>
 <h3>🌍 Multi Platform</h3>
-<p>Windows, Linux and Android support.</p>
+<p>
+Windows, Linux and Android support.
+</p>
 </div>
 
 </div>
@@ -174,6 +206,30 @@ The software combines oscilloscope acquisition, waveform analysis, protocol deco
 </div>
 
 <div class="card">
+
+<h2>Animated Crank & Cam Correlation</h2>
+
+<p>
+Analyze crankshaft and camshaft synchronization from live captures, imported waveforms or the integrated sensor simulator.
+</p>
+
+<img src="images/Pic-1.PNG"
+alt="Animated Crank Cam Correlation"
+class="screenshot">
+
+<p class="note">
+Automatic crank tooth counting, cam window detection, camshaft phase calculation and animated timing drive visualization.
+</p>
+
+<img src="images/Pic-2.PNG"
+alt="Automatic Tooth Detection"
+class="screenshot">
+
+<p class="note">
+Mechanical timing analysis with reluctor wheel identification, missing tooth detection, synchronization verification and imported waveform analysis.
+</p>
+
+</div>
 
 <h2>Supported Hardware</h2>
 
@@ -280,10 +336,20 @@ Integrated Digital Multimeter functions:
 
 <div class="card">
 
-<h2>Automotive Diagnostics</h2>
+<h2>Automotive Diagnostics & Engine Analysis</h2>
 
 <ul>
-<li>Cam / Crank Correlation</li>
+
+<li>185+ Guided Diagnostics</li>
+<li>Crank / Cam Correlation</li>
+<li>Automatic Tooth Counting</li>
+<li>Missing Tooth Detection</li>
+<li>Reluctor Wheel Identification</li>
+<li>Camshaft Phase Calculation</li>
+<li>Variable Valve Timing Analysis</li>
+<li>Imported Waveform Correlation Analysis</li>
+<li>Correlation Confidence Validation</li>
+<li>Sensor Pattern Simulation</li>
 <li>Relative Compression Testing</li>
 <li>Injector Analysis</li>
 <li>Ignition Analysis</li>
@@ -291,8 +357,17 @@ Integrated Digital Multimeter functions:
 <li>Charging System Analysis</li>
 <li>Starting System Analysis</li>
 <li>Reference Waveform Comparison</li>
-<li>Waveform Library Management</li>
+<li>Vehicle Waveform Libraries</li>
+
 </ul>
+
+<p>
+The Crank & Cam Analysis module converts electrical crankshaft and camshaft sensor signals into a mechanical timing model. Tooth count, missing teeth, cam windows, synchronization angles and phase relationships can be calculated automatically from imported waveform files or live captures.
+</p>
+
+<p>
+Built-in validation warnings help identify incomplete captures, uncertain correlations, inconsistent tooth patterns and unreliable automatic detections.
+</p>
 
 </div>
 
@@ -342,9 +417,7 @@ Unlike traditional memory-based oscilloscopes, HantekScopeQt supports direct-to-
 Download the latest release:
 </p>
 
-<a class="btn"
-href="https://mega.nz/folder/tygggJRR#1msSwtngPFoVY7otVh7SUQ"
-target="_blank">
+<a class="btn" href="https://mega.nz/folder/tygggJRR#1msSwtngPFoVY7otVh7SUQ" target="_blank">
 Download Latest Release
 </a>
 
@@ -355,9 +428,10 @@ Download Latest Release
 <footer>
 
 © 2026 HantekScopeQt<br>
-Universal Automotive Test & Measurement Platform
+Universal Automotive Test, Measurement &amp; Engine Analysis Platform
 
 </footer>
 
-</body>
-</html>
+
+
+</body></html>

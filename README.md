@@ -1,6 +1,6 @@
 # HantekScopeQt
 
-## Universal Automotive Test & Measurement Platform
+## Universal Automotive Test, Measurement & Engine Analysis Platform
 
 Acquire, analyze, compare, convert and share automotive oscilloscope waveforms across multiple hardware ecosystems including Hantek, PicoScope, AutoScope, Autel MaxiScope and HScope.
 

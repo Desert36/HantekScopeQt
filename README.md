@@ -1,8 +1,8 @@
 # HantekScopeQt
 
-## Free Picoscope Alternative & Automotive Oscilloscope Software
+## Affordable Picoscope Alternative & Automotive Oscilloscope Software
 
-HantekScopeQt is a **free Picoscope alternative** and open-source automotive oscilloscope software. Acquire, analyze, compare, convert and share automotive oscilloscope waveforms across multiple hardware ecosystems including Hantek, PicoScope, AutoScope, Autel MaxiScope and HScope.
+HantekScopeQt is a very affordable, high-performance Picoscope alternative and automotive oscilloscope software, with performance comparable to Pico and Autel at a fraction of the cost. Acquire, analyze, compare, convert and share automotive oscilloscope waveforms across multiple hardware ecosystems including Hantek, PicoScope, AutoScope, Autel MaxiScope and HScope.
 
 If you are looking for the **best scope software** or need to **import waveforms** from other diagnostic tools, HantekScopeQt gives you a complete oscilloscope and engine analysis environment at no cost.
 
@@ -12,7 +12,7 @@ If you are looking for the **best scope software** or need to **import waveforms
 
 ### Oscilloscope & Waveform Analysis
 
-- Free automotive oscilloscope software (Picoscope alternative)
+- Affordable automotive oscilloscope software (Picoscope alternative)
 - High-performance GPU waveform rendering
 - Multi-channel acquisition
 - Real-time waveform analysis
@@ -86,7 +86,7 @@ If you are looking for the **best scope software** or need to **import waveforms
 
 ## Why Choose HantekScopeQt?
 
-Unlike traditional oscilloscope software tied to a single manufacturer, HantekScopeQt is a **free Picoscope alternative** that focuses on:
+Unlike traditional oscilloscope software tied to a single manufacturer, HantekScopeQt is a very affordable, high-performance Picoscope alternative that focuses on:
 
 - Hardware Independence
 - Waveform Portability
@@ -100,5 +100,5 @@ Unlike traditional oscilloscope software tied to a single manufacturer, HantekSc
 
 ## Download
 
-[Download Latest Release](https://github.com/Desert36/HantekScopeQt/releases)  
+[Download Latest Release](https://mega.nz/folder/tygggJRR#1msSwtngPFoVY7otVh7SUQ)  
 [Project Website](https://desert36.github.io/HantekScopeQt/)
